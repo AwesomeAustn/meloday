@@ -1,6 +1,6 @@
 plex:
   url: "http://localhost:32400"                     # The URL of your Plex Media Server
-  token: "YOUR_PLEX_TOKEN"                     # Your Plex API authentication token
+  token: "YOUR_PLEX_TOKEN"                          # Your Plex API authentication token
   music_library: "Music"                            # The name of your Plex music library
 
 
@@ -16,8 +16,8 @@ playlist:
 
 
 directories:
-  cover_images: "assets/covers/flat"    # Path where cover images for playlists are stored
-  fonts: "assets/fonts"          # Path to font files used for text overlays
+  cover_images: "assets/covers/flat"                # Path where cover images for playlists are stored
+  fonts: "assets/fonts"                             # Path to font files used for text overlays
 
 
 fonts:
@@ -49,7 +49,7 @@ time_periods:
     cover: "late-night_blank.webp"
 
 files:
-  mood_map: "assets/moodmap.json"             
+  mood_map: "moodmap.json"             
 
 period_phrases:
   Dawn: "at dawn"
